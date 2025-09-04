@@ -3,7 +3,7 @@ while True:
     Answer = random.randint(1, 15)
 
     print("GUESSING GAME😒")
-    print("Guess a number between 1 and 15")
+    print("Guess a number between 1 and 20")
 
     while True:
 
