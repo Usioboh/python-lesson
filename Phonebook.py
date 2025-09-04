@@ -8,7 +8,7 @@ while True:
     print("3. Search contact")
     print("4. Exit")
 
-    choice = input("Choose an option (1-4): ")
+    choice = input("Choose an option 1-4: ")
 
     if choice == "1":
         name = input("Enter name: ")
@@ -22,7 +22,7 @@ while True:
             for name, num in contacts.items():
                 print(name, ":", num)
         else:
-            print("No contacts yet.")
+            print("No contacts saved.")
 
     elif choice == "3":
         name = input("Enter name to search: ")
